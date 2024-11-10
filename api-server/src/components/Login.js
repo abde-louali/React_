@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Login({ObjLogin, setlog, Onlog, ErrorMesage}) {
   return (
@@ -14,7 +15,7 @@ export default function Login({ObjLogin, setlog, Onlog, ErrorMesage}) {
          </div>
          <button className="btn btn-primary w-100" onClick={Onlog}>Login</button>
          <br />
-         <p className="mt-3">I don't have an account? <a href="/Signin/">Signin</a></p>
+         <p className="mt-3">I don't have an account? <Link to="/Signin/">Signin</Link></p>
          <p className="text-danger mt-3">{ErrorMesage}</p>
         </form>
     </div>

@@ -4,7 +4,7 @@ export default function Add({vall,onAdd,set,isupdated,onupdate}) {
     let isdisable = vall=='';
   return ( 
     <div>
-        <h1 style={{marginTop:'150px'}}>ALL USERS </h1>
+        <h1 style={{marginTop:'150px'}}>ALL USERS </h1> 
         <div>
             <label htmlFor="">Type a username: </label>
             <input type="text" value={vall} onChange={e=>set(e.target.value)} />

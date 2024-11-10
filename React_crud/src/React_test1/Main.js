@@ -7,7 +7,7 @@ export default function Main2() {
     const [listusers,setuserslist] = useState([]) 
     const [objects,setobjects] = useState({
         id:'',
-        name:''
+        name:'' 
     })
     const [isupdate,setisupdate] = useState(false)
     //this function for add a user
