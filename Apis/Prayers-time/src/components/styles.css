@@ -1,0 +1,110 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card h2 {
+    font-size: 1.5em;
+    color: #555;
+  }
+  
+  /* Layout for rows and columns */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .col-2 {
+    flex: 0 0 16%;
+    max-width: 16%;
+    padding: 10px;
+  }
+  
+  .col-5 {
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding: 10px;
+  }
+  
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+  
+  /* Dropdown styling */
+  select {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading and text styling */
+  h2, h3, h4 {
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  h4 {
+    font-size: 1.2em;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .col-2 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .col-5, .col-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
