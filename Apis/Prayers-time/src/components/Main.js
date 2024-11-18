@@ -63,21 +63,21 @@ export default function Allpriers() {
   // }});
      function timer(){
       
-      if(TImenow.isAfter(moment(praier.timings.Fajr,"hh,mm")) && TImenow.isBefore(moment(praier.timings.Asr,'hh,mm'))){
+      if (TImenow.isAfter(moment(praier.timings.Fajr, "HH:mm")) && TImenow.isBefore(moment(praier.timings.Dhuhr, "HH:mm"))) {
         setprayerTime('Dhuhr');
-        setprayerTimeR(praier.timings.Dhuhr)
-      }else if(TImenow.isAfter(moment(praier.timings.Dhuhr,"hh,mm")) && TImenow.isBefore(moment(praier.timings.Maghrib,'hh,mm'))){
+        setprayerTimeR(praier.timings.Dhuhr);
+    } else if (TImenow.isAfter(moment(praier.timings.Dhuhr, "HH:mm")) && TImenow.isBefore(moment(praier.timings.Asr, "HH:mm"))) {
         setprayerTime('Asr');
-        setprayerTimeR(praier.timings.Asr)
-      }else if(TImenow.isAfter(moment(praier.timings.Asr,"hh,mm")) && TImenow.isBefore(moment(praier.timings.Isha,'hh,mm'))){
+        setprayerTimeR(praier.timings.Asr);
+    } else if (TImenow.isAfter(moment(praier.timings.Asr, "HH:mm")) && TImenow.isBefore(moment(praier.timings.Maghrib, "HH:mm"))) {
         setprayerTime('Maghrib');
-        setprayerTimeR(praier.timings.Maghrib)
-      }else if(TImenow.isAfter(moment(praier.timings.Maghrib,"hh,mm")) && TImenow.isBefore(moment(praier.timings.Fajr,'hh,mm'))){
+        setprayerTimeR(praier.timings.Maghrib);
+    } else if (TImenow.isAfter(moment(praier.timings.Maghrib, "HH:mm")) && TImenow.isBefore(moment(praier.timings.Isha, "HH:mm"))) {
         setprayerTime('Isha');
-        setprayerTimeR(praier.timings.Isha)
-      }else {
+        setprayerTimeR(praier.timings.Isha);
+    } else {
         setprayerTime('Fajr');
-        setprayerTimeR(praier.timings.Fajr)
+        setprayerTimeR(praier.timings.Fajr);
     }
      } 
 
