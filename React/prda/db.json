@@ -1,0 +1,28 @@
+{
+    "produits": [
+        {
+            "id": 1,
+            "libelle": "Produit 1",
+            "prix": 1000,
+            "Promotion": false
+        },
+        {
+            "id": 2,
+            "libelle": "Produit 2",
+            "prix": 2600,
+            "Promotion": true
+        },
+        {
+            "id": 3,
+            "libelle": "Produit 3",
+            "prix": 1500,
+            "Promotion": true
+        },
+        {
+            "id": 4,
+            "libelle": "Produit 4",
+            "prix": 6200,
+            "Promotion": false
+        }
+    ]
+}

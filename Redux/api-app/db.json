@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "c4bd",
+      "Fname": "Abdessamad",
+      "Lname": "Louali",
+      "email": "abdou@gmail.com",
+      "username": "Abdou",
+      "password": "abdou123"
+    },
+    {
+      "id": "22fd",
+      "Fname": "salim",
+      "Lname": "ilyas",
+      "email": "salim@gmail.com",
+      "username": "salim",
+      "password": "salim123"
+    },
+    {
+      "id": "d378",
+      "Fname": "saaid",
+      "Lname": "smahi",
+      "email": "saaid@gmail,com",
+      "username": "saaid",
+      "password": "said123"
+    },
+    {
+      "id": "cd34",
+      "Fname": "ilyas",
+      "Lname": "analize",
+      "email": "ilyas@gmail.com",
+      "username": "ilyas",
+      "password": "ilyas123"
+    },
+    {
+      "id": "b38d",
+      "Fname": "slama",
+      "Lname": "saidi",
+      "email": "salma@gmail.com",
+      "username": "salma",
+      "password": "salma123"
+    },
+    {
+      "id": "6c76",
+      "Fname": "woemx",
+      "Lname": "oekmxks",
+      "email": "xmwk@.com",
+      "username": "ecmx",
+      "password": "euc"
+    },
+    {
+      "id": "724e",
+      "Fname": "Mehdi",
+      "Lname": "azou",
+      "email": "mehdi@gmail.com",
+      "username": "mehdi",
+      "password": "mehdi123"
+    },
+    {
+      "id": "f3f4",
+      "Fname": "Aboubakr",
+      "Lname": "Taouil",
+      "email": "bakr@gmail.com",
+      "username": "bark",
+      "password": "bakr123"
+    },
+    {
+      "id": "1809",
+      "Fname": "omar",
+      "Lname": "boyu",
+      "email": "omar@gmail.com",
+      "username": "samad",
+      "password": "samad123"
+    }
+  ]
+}
